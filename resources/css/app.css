@@ -1,0 +1,78 @@
+body{
+    font-family: 'Nunito', Arial !important;
+}
+
+#container-entrada-tarefa{
+    height: 600px;
+    background-color: rgb(31, 30, 30);
+    border-radius: 15px;
+    box-shadow: 6px 6px 8px black;
+}
+
+#container-lista-tarefa{
+    height: 600px;
+    background-color: rgb(31, 30, 30);
+    border-radius: 15px;
+    box-shadow: 6px 6px 8px black;
+}
+
+#titulo-adicionar-tarefa{
+    position: relative;
+    top: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#entrada-tarefa{
+    position: relative;
+    top: 100px;
+}
+
+#entrada-tarefa textarea{
+    resize: none;
+    font-size: 30px;
+    outline: none;
+    box-shadow: 6px 6px 8px black;
+    background-color: rgb(53, 52, 52);
+    border-style: none;
+    color: whitesmoke;
+}
+
+#btn-adicionar{
+    position: relative;
+    top: 160px;
+    width: 150px;
+    height: 75px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, blue, purple);
+    border-style: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#titulo-lista-tarefa{
+    position: relative;
+    top: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#container-tarefas{
+    position: relative;
+    top: 80px;
+    font-size: 30px;
+    width: 700px;
+    height: 400px;
+    overflow-y: auto;
+}
+
+#container-tarefas::-webkit-scrollbar {
+    width: 12px;
+}
+  
+#container-tarefas::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(blue, purple);
+    border-radius: 20px;
+}
